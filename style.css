@@ -1,0 +1,184 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Lora", "Times New Roman", "Times", serif;
+	color: hsl(240, 10%, 10%);
+	box-sizing: border-box;
+}
+
+body {
+	/* width: 100vw; */
+	height: 100vh;
+	padding: 5px;
+	background-color: hsl(60, 50%, 90%);
+}
+
+h1,
+h2 {
+	font-family: "DM Serif Display";
+}
+
+/* Header */
+
+.heading {
+	font-size: 60px;
+	text-align: center;
+	margin: 5px 0;
+	color: hsl(100, 50%, 70%);
+}
+
+.underhead {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* Main */
+
+.theme {
+	margin: 10px 0px 50px 0px;
+}
+
+.themeName {
+	text-align: center;
+	font-size: 40px;
+	color: hsl(270, 50%, 70%);
+	margin: 5px;
+}
+
+/* Tables */
+
+table {
+	width: 60vw;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 2px solid hsl(270, 50%, 70%);
+	border-spacing: 0px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+thead {
+	background-color: hsl(270, 50%, 70%);
+}
+
+thead > tr > th {
+	padding: 10px;
+}
+
+thead > tr > th:last-child {
+	border-right: 0px;
+}
+
+tbody {
+	background-color: hsl(270, 50%, 90%);
+}
+
+tbody > tr > td {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	border-right: 2px solid hsl(270, 50%, 70%);
+	border-bottom: 2px solid hsl(270, 50%, 70%);
+}
+
+tbody > tr > td:last-child {
+	border-right: 0px;
+}
+
+.lastRow > td {
+	border-bottom: 0px;
+}
+
+tfoot {
+	background-color: hsl(270, 70%, 90%);
+}
+
+tfoot > tr > th {
+	background-color: hsl(270, 50%, 70%);
+}
+
+tfoot > tr > th,
+tfoot > tr > td {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	border-right: 2px solid hsl(270, 50%, 70%);
+	border-bottom: 2px solid hsl(270, 50%, 70%);
+}
+
+tfoot > tr > td:last-child {
+	border-right: 0px;
+}
+
+code {
+	background-color: hsl(270, 50%, 70%);
+	border-radius: 10px;
+	padding: 3px;
+	margin: 2px;
+	font-family: "Lora", "Times New Roman", "Times", serif;
+	color: white;
+}
+
+/* Cards */
+
+.cssSelSpec {
+	margin-bottom: 50px;
+}
+
+.card {
+	text-align: justify;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: hsl(270, 50%, 70%);
+}
+
+.cardTitle {
+	font-size: 40px;
+}
+
+.cardDesc {
+	font-size: 25px;
+	line-height: 1.7;
+}
+
+#tag {
+	position: relative;
+	bottom: 44px;
+	left: 10%;
+	background-color: hsl(100, 50%, 70%);
+}
+
+#class {
+	position: relative;
+	left: 15%;
+	background-color: hsl(50, 50%, 70%);
+}
+
+#id {
+	position: relative;
+	left: 20%;
+	background-color: hsl(0, 50%, 70%);
+}
+
+.important {
+	margin-top: 10px;
+	font-size: 25px;
+	text-align: center;
+	color: hsl(0, 50%, 70%);
+}
+
+/* Footer */
+
+footer {
+	padding: 10px;
+}
+
+.contactinfo {
+	text-align: center;
+	font-size: 20px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet" />
+		<title>Cheet Sheet!</title>
+	</head>
+
+	<body>
+		<header>
+			<h1 class="heading">Cheat Sheet!</h1>
+			<p class="underhead">Forgot something? 😉</p>
+		</header>
+
+		<main>
+			<section class="theme">
+				<h2 class="themeName">HTML Tables</h2>
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Tag</th>
+							<th scope="col">Name</th>
+							<th scope="col">Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><code>&#60;table&#62;</code></td>
+							<td>Table</td>
+							<td>The wrapper element for all HTML tables</td>
+						</tr>
+						<tr>
+							<td><code>&#60;thead&#62;</code></td>
+							<td>Table Head</td>
+							<td>The set of rows defining the column headers in a table</td>
+						</tr>
+						<tr>
+							<td><code>&#60;tbody&#62;</code></td>
+							<td>Table Body</td>
+							<td>The set of rows containing actual table data</td>
+						</tr>
+						<tr>
+							<td><code>&#60;tfoot&#62;</code></td>
+							<td>Table Foot</td>
+							<td>The set of rows defining the footer in a table</td>
+						</tr>
+						<tr>
+							<td><code>&#60;tr&#62;</code></td>
+							<td>Table Row</td>
+							<td>The table row container</td>
+						</tr>
+						<tr>
+							<td><code>&#60;td&#62;</code></td>
+							<td>Table Data</td>
+							<td>The table cell container</td>
+						</tr>
+						<tr class="lastRow">
+							<td><code>&#60;th&#62;</code></td>
+							<td>Table Header</td>
+							<td>Defines a cell as header of a group of table cells</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="3">Attributes</th>
+						</tr>
+						<tr>
+							<td colspan="2"><code>colspan</code></td>
+							<td>
+								Defines how many columns a &#60;td&#62; element should span
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><code>rowspan</code></td>
+							<td>Defines how many rows a &#60;td&#62; element should span</td>
+						</tr>
+						<tr class="lastRow">
+							<td colspan="2"><code>scope</code></td>
+							<td>
+								Defines the cells that the &#60;th&#62; element relates to
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+
+			<section class="theme" id="cssSelSpec">
+				<h2 class="themeName">CSS Selectors & Specificity</h2>
+				<p class="underhead">
+					Each subsequent type of a CSS selector is more specific than the
+					previous one
+				</p>
+
+				<div class="card" id="tag">
+					<h2 class="cardTitle"><code>tag</code> selector</h2>
+					<p class="cardDesc">Selects all HTML tags of the specified type</p>
+				</div>
+				<div class="card" id="class">
+					<h2 class="cardTitle"><code>.class</code> selector</h2>
+					<p class="cardDesc">
+						Selects all HTML tags with the specified value of the
+						<code>class</code> attribute
+					</p>
+				</div>
+				<div class="card" id="id">
+					<h2 class="cardTitle"><code>#id</code> selector</h2>
+					<p class="cardDesc">
+						Selects all HTML tags with the specified value of the
+						<code>id</code> attribute
+					</p>
+				</div>
+				<aside>
+					<h2 class="important">
+						Note: If you type <code>!important</code> after any CSS declaration,
+						it will give it maximum possible specificity. Use sparingly and very
+						carefully!
+					</h2>
+				</aside>
+			</section>
+		</main>
+		<footer>
+			<p class="contactinfo">&copy; Made by Oskar Castle for Codecademy 🥰</p>
+		</footer>
+	</body>
+</html>
